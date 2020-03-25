@@ -33,12 +33,12 @@
 				</span>
 			</el-dialog>
 			<el-container>
-				<el-header style="background-color: #EBEEF5;border-radius: 5px;">
-					<div style="position:relative;top:0;bottom:0;left:0;right:0;">Hsuan 線上記事本</div>
+				<el-header>
+					Hsuan 線上記事本
 				</el-header>
 				&nbsp;
 				<el-container>
-					<el-main style="background-color: #409EFF;">
+					<el-main>
 						<el-button icon="el-icon-plus" type="success" @click="newNote()">新增</el-button>
 						<el-collapse v-model="activeNames">
 							<div v-for="(n,i) in notes">
